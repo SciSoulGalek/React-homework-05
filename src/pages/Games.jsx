@@ -4,8 +4,8 @@ import GameCard from "../components/GameCard";
 import GameFilters from "../components/GameFilters";
 import Pagination from "../components/Pagination";
 import GameForm from "../components/GameForm";
-import { getGamesList, createGame, addToLibrary } from "../api/gamesApi";
-import { initialDataSample } from "../api/initial-data-sample";
+import { getGamesList, createGame, addToLibrary } from "../services/gamesApi";
+import { initialDataSample } from "../services/initial-data-sample";
 
 const genres = [...new Set(initialDataSample.map((game) => game.genre))].sort();
 

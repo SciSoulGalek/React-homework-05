@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-import { getGamesList } from "../api/gamesApi";
+import { getGamesList } from "../services/gamesApi";
 
 export default function Dashboard() {
   const [games, setGames] = useState([]);

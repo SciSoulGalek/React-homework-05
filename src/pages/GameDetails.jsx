@@ -5,7 +5,7 @@ import {
   addToLibrary,
   removeFromLibrary,
   updateGame,
-} from "../api/gamesApi";
+} from "../services/gamesApi";
 
 export default function GameDetails() {
   const { id } = useParams();
